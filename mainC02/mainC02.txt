@@ -1,0 +1,73 @@
+main ex00
+int main()
+{
+   char s2[9] = "funciona";
+   char s1[9];
+
+   ft_strcpy( s1, s2 );
+   printf( "s2=%s\n", s2 );
+   printf( "s1=%s\n", s1 );
+
+   return 0;
+}
+
+main ex01
+int main()
+{
+   char s2[9] = "funciona";
+   char s1[9];
+
+   ft_strncpy( s1, s2, 5 );
+   printf( "s2=%s\n", s2 );
+   printf( "s1=%s\n", s1 );
+
+   return 0;
+}
+
+main ex02
+int	main(void)
+{
+	int	x;
+
+	x = ft_str_is_alpha("141ss2");
+	printf("%d\n", x);
+}
+
+main ex03
+int	main(void)
+{
+	int	x;
+
+	x = ft_str_is_numeric("141ss2");
+	printf("%d\n", x);
+}
+
+main ex04
+int	main(void)
+{
+	int	x;
+
+	x = ft_str_is_lowercase("141ss2");
+	printf("%d\n", x);
+}
+
+main ex05
+int	main(void)
+{
+	int	x;
+
+	x = ft_str_is_uppercase("141ss2");
+	printf("%d\n", x);
+}
+
+main ex06
+int	main(void)
+{
+	int	x;
+
+	x = ft_str_is_printable("141ss2");
+	printf("%d\n", x);
+}
+
+
+

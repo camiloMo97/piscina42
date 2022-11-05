@@ -1,0 +1,63 @@
+main exo00
+
+int	main(void)
+{
+	ft_putchar('S');
+	return (0);
+}
+
+main exo1
+int	main(void)
+{
+	ft_print_alphabet();
+	return (0);
+}
+
+main exo2
+int	main(void)
+{
+	ft_print_reverse_alphabet();
+	return (0);
+}
+
+main exo3
+int	main(void)
+{
+	ft_print_numbers();
+	return (0);
+}
+
+main exo4
+int	main(void)
+{
+	ft_is_negative(-858);
+	return (0);
+}
+
+main exo5
+int	main(void)
+{
+	ft_print_comb();
+}
+
+main exo6
+int	main(void)
+{
+	ft_print_comb();
+}
+
+
+main exo7
+int	main(void)
+{
+	ft_putnbr(12);
+}
+
+main exo8
+
+
+
+gcc -Wall -Wextra -Werror ft_ && ./a.out
+
+norminette -R CheckForbiddenSourceHeader ft_
+
